@@ -30,12 +30,12 @@ int main()
     }
     cout << "The reversed string is: " << rev_str << endl;
 
-    // To find if given string is Palandrome of not
+    // To find if a given string is Palindrome of not
 
-    // if (str1 == rev_str)
-    // {
-    //     cout << "The inputted string is a Palandrome";
-    // }
+    if (str1 == rev_str)
+    {
+         cout << "The inputted string is a Palindrome";
+    }
     
     return 0;
 }
